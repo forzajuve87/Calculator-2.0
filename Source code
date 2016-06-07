@@ -411,7 +411,7 @@ public class kalkulator {
 	private void buttonAndDisplayCharacteristics(JButton button, int number, Container pane){
 		GridBagConstraints c = new GridBagConstraints();
 		
-		// DISPLAY (textfield) - make display in the same time as button =
+		// DISPLAY (textfield) - make display in the same time as button 0
 		if(number==10){
 			display = new JTextField();
 			
@@ -534,8 +534,8 @@ public class kalkulator {
 		
 		}
 		//Display the window.
-        frame.pack();
-        frame.setVisible(true);
+        	frame.pack();
+        	frame.setVisible(true);
 		
 		
 		// button 0
